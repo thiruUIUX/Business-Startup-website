@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
     background-color: black;
     color: white;
@@ -78,4 +79,203 @@ button{
     margin-left:40%;
     margin-top: 15px;
     margin-left:48% ;
+=======
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.a0 {
+
+    background-color: rgb(106, 156, 226);
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.a1 {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+#drop{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    letter-spacing:1px;
+    font-size: 15pt;
+    gap:25;
+    
+}
+#drop::after{
+  
+    color: rgb(239, 239, 239);
+
+}
+#drop option{
+    color: rgba(240, 248, 255, 0.712);
+    background-color: rgba(0, 0, 0, 0.527);
+}
+#drop:hover{
+    color: rgb(255, 0, 0);
+
+}
+.a1 :hover{
+    color: red;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.a2{
+    position: absolute;
+    left:30px;
+}
+
+.b0{
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height:700px;
+    display: flex;
+}
+
+.b1{
+    padding-top: 270px;
+    margin-left: 150px;
+}
+.b2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50pt;
+    color: rgb(0, 0, 0);
+}  
+
+.b3{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40pt;
+    color: rgb(0, 84, 0);
+    margin-top: 5px;
+
+}
+.b4{
+    margin-top: 20px;
+    justify-content: center;margin-bottom: 20px;
+}
+.b5{
+    background-color: green;
+    height: 35px;
+    width: 160px;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+#c0{
+    background-color: rgb(106, 156, 226);
+    width: 100%;
+    height: px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+.box1 , .box2 , .box3{
+    height: 380px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.749);
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(83, 81, 81, 0.853);
+    border-radius: 5px;
+
+    
+}
+
+.box1 h1{
+       margin-top: px;
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       color: red;
+}
+
+.box2 h1{
+       margin-top: px;
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       color: red;
+}
+.box3 h1{
+       margin-top: px;
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: red;
+}
+
+.box1 p{
+    text-align: center;
+    margin-top: 25px;
+    word-spacing: 5px;
+    line-height:25px;
+}
+.box2 p{
+     text-align: center;
+    margin-top: 25px;
+    word-spacing: 5px;
+    line-height:25px;
+
+}
+.box3 p{
+     text-align: center;
+    margin-top: 25px;
+    word-spacing: 5px;
+    line-height:25px;
+}
+.box1 img{
+    width:100px;
+    height:100px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+}
+.box2 img{
+    width:100px;
+    height:100px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+.box3 img{
+    width:100px;
+    height:100px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+>>>>>>> 411f8da1aa86386724e50b5342cee451c64df696
 }
